@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test'
 
-test.only("Task",async({page})=>{
+test("Task",async({page})=>{
     //1. Navigate to "https://www.saucedemo.com"
     await page.goto("https://www.saucedemo.com/");
     //2. Verify the pageurl and pagetitle
